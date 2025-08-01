@@ -1,0 +1,55 @@
+# Flutter SDK
+flutter/
+flutter_linux_*.tar.xz
+*.tar.xz
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Flutter/Dart specific
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android
+screenshot_app/android/.gradle/
+screenshot_app/android/captures/
+screenshot_app/android/gradlew
+screenshot_app/android/gradlew.bat
+screenshot_app/android/local.properties
+screenshot_app/android/**/GeneratedPluginRegistrant.java
+
+# iOS
+screenshot_app/ios/.generated/
+screenshot_app/ios/Flutter/Generated.xcconfig
+screenshot_app/ios/Runner/GeneratedPluginRegistrant.*
+
+# Web
+screenshot_app/web/
+
+# Windows
+screenshot_app/windows/flutter/generated_plugin_registrant.cc
+screenshot_app/windows/flutter/generated_plugin_registrant.h
+
+# macOS
+screenshot_app/macos/Flutter/GeneratedPluginRegistrant.swift
+
+# Linux
+screenshot_app/linux/flutter/generated_plugin_registrant.cc
+screenshot_app/linux/flutter/generated_plugin_registrant.h
